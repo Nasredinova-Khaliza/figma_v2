@@ -1,0 +1,69 @@
+.SliderImg {
+	margin: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	background: rgb(255, 63, 98);
+
+	@media (max-width: 380px) {
+	}
+}
+
+.content {
+	padding: 20px;
+}
+
+.keen-slider {
+	position: relative;
+	overflow: hidden;
+}
+
+.keen-slider__slide {
+	width: 100%;
+}
+.Section3 {
+	margin-top: 2.5rem;
+	background: rgb(255, 63, 98);
+	transform: rotate(-1deg);
+	height: 6rem;
+	@media (max-width: 380px) {
+		height: 50px;
+	}
+	.content {
+		display: flex;
+		justify-content: center;
+		@media (max-width: 380px) {
+			height: 30px;
+		}
+		.cards {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			width: 1000px;
+			gap: 9rem;
+			@media (max-width: 380px) {
+				display: flex;
+				// flex-direction: column;
+			}
+			img {
+				margin-top: 1rem;
+				width: auto;
+				height: 2rem;
+
+				@media (max-width: 30px) {
+					width: auto;
+					height: 1rem;
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.keen-slider__slide img {
+	width: 100%;
+	height: auto;
+	display: block;
+}

@@ -1,0 +1,153 @@
+.Footer {
+	@media (max-width: 380px) {
+		width: 380px;
+		height: 700px;
+	}
+	height: 500px;
+	.content {
+		margin-top: 30px;
+
+		.footer_button {
+			display: flex;
+			justify-content: space-between;
+			gap: 50px;
+
+			@media (max-width: 380px) {
+				flex-direction: column;
+				gap: 30px;
+			}
+
+			.footer_logo {
+				display: flex;
+				flex-direction: column;
+
+				img {
+					width: 200px;
+					height: 70px;
+					left: 300px;
+					right: 1402px;
+					bottom: 351px;
+				}
+
+				p {
+					@media (max-width: 380px) {
+						width: 340px;
+					}
+					width: 426px;
+					height: 34px;
+					color: rgb(0, 0, 0);
+					font-family: Inter;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 17px;
+					letter-spacing: 0%;
+					text-align: left;
+				}
+			}
+
+			.footer_email {
+				display: flex;
+				flex-direction: column;
+				@media (max-width: 380px) {
+					width: 340px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+				p {
+					color: rgb(0, 0, 0);
+					font-family: Inter;
+					font-size: 16px;
+					font-weight: 600;
+					line-height: 19px;
+					letter-spacing: 0%;
+					text-align: center;
+				}
+				button {
+					border-radius: 30px;
+					color: beige;
+					background: rgb(0, 0, 0);
+					width: 141px;
+					height: 56px;
+					color: rgb(255, 255, 255);
+					font-family: Inter;
+					font-size: 18px;
+					font-weight: 600;
+					line-height: 22px;
+					letter-spacing: 0%;
+					text-align: center;
+					margin-top: 10px;
+				}
+			}
+		}
+
+		nav {
+			display: flex;
+			gap: 40px;
+			margin-top: 50px;
+			margin-bottom: 60px;
+
+			@media (max-width: 380px) {
+				flex-direction: column;
+				gap: 20px;
+			}
+			li {
+				a {
+					color: rgb(0, 0, 0);
+					font-family: Inter;
+					font-size: 16px;
+					font-weight: 600;
+					line-height: 19px;
+					letter-spacing: 0%;
+					text-align: left;
+				}
+			}
+
+			hr {
+				width: 1500px;
+				height: 1px;
+				background: rgb(0, 0, 0);
+				margin-top: 30px;
+				border: 1px solid rgb(231, 231, 231);
+			}
+		}
+
+		.footer_icons {
+			display: flex;
+
+			justify-content: space-between;
+			margin-top: 40px;
+			margin-bottom: 40px;
+			@media (max-width: 380px) {
+				flex-direction: column;
+				gap: 20px;
+			}
+
+			h3 {
+				color: rgb(0, 0, 0);
+				font-family: Inter;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 17px;
+				letter-spacing: 0%;
+				text-align: left;
+			}
+
+			.icons {
+				display: flex;
+				gap: 20px;
+
+				a {
+					color: rgb(0, 0, 0);
+					font-family: Inter;
+					font-size: 16px;
+					font-weight: 600;
+					line-height: 19px;
+					letter-spacing: 0%;
+					text-align: left;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,225 @@
+.Section3 {
+	margin-top: 200px;
+	.content {
+		h1 {
+			@media (max-width: 380px) {
+				margin-top: -70px;
+			}
+		}
+		.cards1 {
+			@media (max-width: 380px) {
+			}
+			display: flex;
+			gap: 20px;
+			@media (max-width: 380px) {
+				flex-direction: column;
+				gap: 5px;
+			}
+		}
+		.cards2 {
+			margin-top: 20px;
+			display: flex;
+			gap: 20px;
+			@media (max-width: 380px) {
+				flex-direction: column;
+				gap: 0px;
+			}
+		}
+		.card1 {
+			.background1 {
+				display: flex;
+
+				.img1 {
+					@media (max-width: 380px) {
+						width: 330px;
+					}
+				}
+				.text1 {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					margin-left: 20px;
+					margin-top: 80px;
+					position: absolute;
+					color: white;
+
+					h1 {
+						width: 373px;
+						height: 80px;
+						color: rgb(255, 255, 255);
+						font-family: Inter;
+						font-size: 40px;
+						font-weight: 500;
+						line-height: 100%;
+						letter-spacing: 0%;
+						text-align: left;
+						margin-bottom: 40px;
+						@media (max-width: 380px) {
+							width: 300px;
+							font-size: 20px;
+							margin-top: -40px;
+						}
+					}
+					p {
+						width: 523px;
+						height: 41px;
+						color: rgb(168, 168, 168);
+						font-family: Inter;
+						font-size: 16px;
+						font-weight: 400;
+						line-height: 19px;
+						letter-spacing: 0%;
+						text-align: left;
+						@media (max-width: 380px) {
+							width: 300px;
+							font-size: 13px;
+							margin-top: -50px;
+						}
+					}
+				}
+				@media (max-width: 380px) {
+					max-width: 330px;
+					width: 50px;
+				}
+			}
+		}
+		.card2 {
+			.background2 {
+				display: flex;
+				img {
+					width: 640px;
+					@media (max-width: 380px) {
+						width: 330px;
+					}
+				}
+				.text2 {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					margin-left: 20px;
+					position: absolute;
+					z-index: 2;
+					h1 {
+						width: 490px;
+						height: 80px;
+						color: rgb(255, 255, 255);
+						font-family: Inter;
+						font-size: 40px;
+						font-weight: 500;
+						line-height: 100%;
+						letter-spacing: 0%;
+						text-align: left;
+						margin-bottom: 40px;
+						@media (max-width: 380px) {
+							width: 300px;
+							font-size: 20px;
+							margin-top: 24px;
+						}
+					}
+					p {
+						width: 479px;
+						height: 65px;
+						color: rgb(168, 168, 168);
+						font-family: Inter;
+						font-size: 18px;
+						font-weight: 400;
+						line-height: 22px;
+						letter-spacing: 0%;
+						text-align: left;
+						@media (max-width: 380px) {
+							width: 300px;
+							font-size: 13px;
+							margin-top: -60px;
+						}
+					}
+				}
+			}
+		}
+		.card3 {
+			.background3 {
+				display: flex;
+
+				.img3 {
+					width: auto;
+					height: 248px;
+					@media (max-width: 380px) {
+						width: 330px;
+						height: 160px;
+					}
+				}
+				h1 {
+					margin-top: 100px;
+					margin-left: 150px;
+					position: absolute;
+					z-index: 2;
+					color: white;
+					@media (max-width: 380x) {
+						display: none;
+					}
+				}
+			}
+		}
+		.card4 {
+			.background4 {
+				display: flex;
+
+				.text3 {
+					position: absolute;
+					z-index: 2;
+					padding: 20px;
+
+					h1 {
+						width: 673px;
+						height: 47px;
+						margin-top: 60px;
+						color: rgb(255, 255, 255);
+						font-family: Inter;
+						font-size: 40px;
+						font-weight: 500;
+						line-height: 100%;
+						letter-spacing: 0%;
+						text-align: left;
+						margin-bottom: 33px;
+						@media (max-width: 380px) {
+							width: 300px;
+							font-size: 20px;
+							margin-top: 8px;
+						}
+					}
+					p {
+						width: 475px;
+						height: 65px;
+						color: rgb(168, 168, 168);
+						font-family: Inter;
+						font-size: 18px;
+						font-weight: 400;
+						line-height: 22px;
+						letter-spacing: 0%;
+						text-align: left;
+						@media (max-width: 380px) {
+							width: 300px;
+							font-size: 10px;
+							width: 300px;
+							line-height: 15px;
+							margin-top: -30px;
+						}
+					}
+				}
+
+				.img4 {
+					margin-top: auto;
+					width: 702px;
+					@media (max-width: 380px) {
+						width: 330px;
+						height: 150px;
+					}
+				}
+				.img5 {
+					margin-left: 540px;
+					position: absolute;
+					z-index: 2;
+				}
+			}
+		}
+	}
+}
